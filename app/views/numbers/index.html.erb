@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-<!-- ヘッダー -->
+    <!-- ヘッダー -->
     <header class="header">
       <div class="heading">
-        <h1 class="logo"><a href=numbers_index_path>数当てゲーム</a></h1>
+        <%= link_to "数当てゲーム", root_path, class: "logo" %>
       </div>
       <div class="navbar">
         <% if user_signed_in? %>
-          <div class="nav-lists__list">
-            <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+          <div class="nav-lists">
+            <%= link_to current_user.name, "#", class: "nav-lists__list" %>
+            <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "nav-lists__list" %>
           </div>
         <%else%>
         <div class="nav-lists">
