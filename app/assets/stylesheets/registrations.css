@@ -1,3 +1,7 @@
+/******************************************************** 
+　sessionsでも使用 
+********************************************************/
+
 .all_position {
   position: relative;
 }
@@ -15,6 +19,7 @@
 .field {
   margin-top: 20px;
 }
+
 .enter {
   width: 300px;
   margin-top: 5px;
@@ -27,7 +32,7 @@
   resize: none;
 }
 
-.sign_up {
+.register {
   color: white;
   background-color: darkred;
   margin-top: 8px;
