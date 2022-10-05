@@ -1,0 +1,37 @@
+.all_position {
+  position: relative;
+}
+
+.container {
+  font-size: 24px;
+  color: lightgreen;
+  position: absolute;
+  top: calc(50% - 50px);
+  width: 100%;
+  padding: 0 600px;
+  margin-top: 100px;
+}
+
+.field {
+  margin-top: 20px;
+}
+.enter {
+  width: 300px;
+  margin-top: 5px;
+  height: 46px;
+  padding: 10px 16px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 16px;
+  resize: none;
+}
+
+.sign_up {
+  color: white;
+  background-color: darkred;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 20px;
+  width: 100px;
+}
