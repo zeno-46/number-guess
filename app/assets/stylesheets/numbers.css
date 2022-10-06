@@ -23,6 +23,7 @@
 .nav-lists {
   height: 100px;
   display: flex;
+  list-style: none;
 }
 
 .nav-lists__list {
