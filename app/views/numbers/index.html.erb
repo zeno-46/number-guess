@@ -41,13 +41,13 @@
     <!-- フッター -->
     <footer class="footer">
     </footer>
-      <script>
+    <!-- ゲーム -->
+    <script>
       'use strict';
-
         let message;
         let count = 1;
         let flag = 0;
-        const number = Math.floor(Math.random() * 50) + 1;
+        const number = Math.floor(Math.random() * 100) + 1;
         while (count <=7){ 
             const answer = parseInt(window.prompt('数当てゲーム。1〜100の数字を入力してね。7回まで挑戦できます'));
             window.alert(count + "回目です。")
@@ -63,7 +63,7 @@
             } else if((answer > number) && (answer <=50)) {
                 message = '残念でした！もっと小さい';
             } else {
-                message = '1〜50の数字を入力してね。';
+                message = '1〜100の数字を入力してね。';
             }
             window.alert(message);
             count = count + 1;
