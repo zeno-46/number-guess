@@ -6,7 +6,10 @@
   justify-content: space-between;
   width: 100%;
   padding: 0 100px 0 30px;
-  background-color: #13a913f7;
+  background: linear-gradient(#0f0f0ff7, #2dc80e);
+}
+
+.headding {
   text-align: center;
 }
 
@@ -32,7 +35,7 @@
   font-size: 22px;
   font-weight: 600;
   line-height: 100px;
-  border: 0.8rem outset #0eefa4;
+  border: 0.8rem outset #4daf43;
   border-radius: 5px;
 }
 
@@ -98,7 +101,7 @@
   width: 150px;
   height: 100px;
   line-height: 100px;
-  background-color: darkgreen;
+  background: radial-gradient(rgb(255, 56, 56), rgb(44, 3, 3));
   text-align: center;
   border-radius: 40px;
   color: #fff;
