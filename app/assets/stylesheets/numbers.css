@@ -30,7 +30,9 @@
   margin-left: 70px;
   font-size: 22px;
   font-weight: 600;
-  line-height: 100px;  
+  line-height: 100px;
+  border: 0.8rem outset #0eefa4;
+  border-radius: 5px;
 }
 
 /******************************************************** 
@@ -39,7 +41,7 @@
 .footer {
   width: 100%;
   height: 70px;
-  background-color: #FAFAFA;
+  background-color: #e8dede;
 }
 
 .copyright {
@@ -60,7 +62,7 @@
 
 .math-image {
   width: 100%;
-  height: 560px;
+  height: 100%;
   object-fit: cover;
   opacity: 30%
 }
@@ -72,6 +74,10 @@
   top: calc(50% - 50px);
   width: 100%;
   padding: 0 60px;
+}
+
+.math-text {
+  margin-bottom: 100px;
 }
 
 .math-text__main {
@@ -95,4 +101,5 @@
   text-align: center;
   border-radius: 40px;
   color: #fff;
+  margin-right: 50px;
 }
