@@ -34,7 +34,7 @@
             <div class="math-text__sub">推測して当てることはできるかな？</div>
           </div>
             <div>
-              <input class="start-btn"type="button" value="ゲームスタート" onclick="buttonClick();" >
+              <input class="start-btn" type="button" value="ゲームスタート" onclick="buttonClick();" >
             </div>
         </div>
       </div>
@@ -45,14 +45,14 @@
     </footer>
     <!-- ゲーム -->
     <script>
-     <%if user_signed_in?%>
-      function buttonClick(){
-        'use strict';
-        let message;
-        let count = 1;
-        let flag = 0;
-        const number = Math.floor(Math.random() * 100) + 1;
-        while (count <=7){ 
+      <%if user_signed_in?%>
+        function buttonClick(){
+          'use strict';
+          let message;
+          let count = 1;
+          let flag = 0;
+          const number = Math.floor(Math.random() * 100) + 1;
+          while (count <=7){ 
             const answer = parseInt(window.prompt('数当てゲーム。1〜100の数字を入力してね。7回まで挑戦できます'));
               window.alert(count + "回目です。")
               if(answer === number) {
@@ -71,13 +71,13 @@
               }
               window.alert(message);
               count = count + 1;  
-        }
-        if (flag === 0){
-            window.alert("正解は" + number + "です");
+          }
+          if (flag === 0){
+              window.alert("正解は" + number + "です");
+          } 
         } 
-      } 
-     <%else%>
-      redirect_to root_path
+      <%else%>
+        redirect_to root_path
       <%end%>
     </script>
   </body>
