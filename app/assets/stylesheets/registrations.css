@@ -4,16 +4,17 @@
 
 .all_position {
   position: relative;
+  top: 10px;
 }
-
 .container {
   font-size: 24px;
-  color: lightgreen;
+  color: rgb(30, 185, 30);
   position: absolute;
   top: calc(50% - 50px);
   width: 100%;
   padding: 0 600px;
   margin-top: 100px;
+  background: linear-gradient(#fdfdfdf7, #0b9dfe60);
 }
 
 .field {
@@ -23,6 +24,7 @@
 .enter {
   width: 300px;
   margin-top: 5px;
+  margin-bottom: 15px;
   height: 46px;
   padding: 10px 16px 8px;
   border-radius: 4px;
@@ -34,7 +36,7 @@
 
 .register {
   color: white;
-  background-color: darkred;
+  background: radial-gradient(#0622f4f7, #1ba7daed);
   margin-top: 8px;
   margin-bottom: 8px;
   border-radius: 20px;
