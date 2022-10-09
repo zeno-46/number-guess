@@ -21,7 +21,13 @@
 .logo {
   font-size: 36px;
   font-weight: 100;
-  line-height: 100px; 
+  line-height: 100px;
+  box-shadow: 0 4px 0 #1b1f0982; 
+}
+
+.logo:hover{
+  transform: translateY(4px);
+  box-shadow: none;
 }
 
 .nav-lists {
@@ -106,4 +112,11 @@
   border-radius: 40px;
   color: #fff;
   margin-right: 50px;
+  transition: .5s cubic-bezier(0.37, 0, 0.63, 1);
+}
+
+.start-btn:hover {
+  background: radial-gradient(#0f0f0ff7, #33e0f3);
+  color: #ffffff;
+  transform: scale(1.2);
 }
