@@ -1,24 +1,31 @@
-# README
+# アプリケーション名　  
+NumberGuess  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション概要  
+ランダムに用意される1~100の数字を7回以内に当てるゲーム。
 
-Things you may want to cover:
+# URL
+https://number-guess.herokuapp.com/
 
-* Ruby version
+# テスト用アカウント
+・Basic認証パスワード：666666  
+・Basic認証ID : a  
+・メールアドレス：test1@com  
+・パスワード：a12345
 
-* System dependencies
+# 利用方法
 
-* Configuration
+## 数を当てるゲーム  
+1.トップページのヘッダーからユーザーの新規登録を行う
 
-* Database creation
+2.トップページに表示されているゲームスタートボタンを押す
 
-* Database initialization
+3.ランダムに1~100まで数字が用意されるので7回以内に当てる
 
-* How to run the test suite
+# アプリケーションを作成した背景
+私の作りたいものは何かと考えたときにゲームをすることが好きなので、ゲームの作成をしようと考えた。隙間時間が空いた時に何か手軽に出来るものは無いのか、子供からご老人の方まで出来るアプリを作成してみたいと思い、作成した。
 
-* Services (job queues, cache servers, search engines, etc.)
+# 洗い出した要件
+https://docs.google.com/spreadsheets/d/1s7NdkkadY2la2KfbweVcMIw2_MZvXT6QdeoHll015qM/edit#gid=982722306
 
-* Deployment instructions
-
-* ...
+# 実装した機能についての画像やGIFおよびその説明
