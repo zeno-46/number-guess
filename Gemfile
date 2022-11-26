@@ -56,3 +56,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 
 gem 'pry-rails'
+
+group :production do
+  gem 'pg', '>= 1.4,5'
+end
