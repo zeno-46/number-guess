@@ -49,6 +49,8 @@ test:
 #
 production:
   <<: *default
-  database: number_guess_production
-  username: number_guess
-  password: <%= ENV['NUMBER_GUESS_DATABASE_PASSWORD'] %>
+  adapter: mysql2
+  database: number-guess_production
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
