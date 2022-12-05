@@ -78,12 +78,12 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
   height: 600px;
 }
 
-.math-image {
+/* .math-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   opacity: 30%
-}
+} */
 
 .math-items {
   display: flex;
