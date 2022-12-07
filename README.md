@@ -5,7 +5,7 @@ NumberGuess
 ランダムに用意される1~100の数字を7回以内に当てるゲームです。
 
 # URL
-https://number-guess.herokuapp.com/
+http://35.79.57.197:3000/
 
 # テスト用アカウント
 ・Basic認証パスワード：666666  
@@ -61,6 +61,3 @@ https://docs.google.com/spreadsheets/d/1s7NdkkadY2la2KfbweVcMIw2_MZvXT6QdeoHll01
 ゲームスタートボタンを色が変わり、大きさも変化するようにした点は特にこだわりました。  
 また、iPhone12Pro画面にも対応できるようレイアウト作成をしました。  
 ゲームではルールが簡単で子供から大人まで遊べるように作成をしました。
-
-# ポートフォリオについて
-現在デプロイ作業中となっております。
